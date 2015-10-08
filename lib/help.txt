@@ -1,0 +1,2 @@
+Usage:
+    pagespace static -h http://localhost:9999 -o spec/tmp/new -a admin:admin

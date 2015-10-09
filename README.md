@@ -10,5 +10,8 @@ npm install pagespace-cli -g
 ## Static site generator
 
 ```
-pagespace static -h http://localhost:9999 -o spec/tmp/new -a admin:admin
+> pagespace static [options]
+
+#run help for full options
+> pagespace --help
 ```

@@ -1,2 +1,18 @@
-Usage:
-    pagespace static -h http://localhost:9999 -o spec/tmp/new -a admin:admin
+Available commands:
+
+    static:
+        pagespace static [options]
+        options:
+            -h, --host          The location of the running Pagespace site to generate a static site for
+            -o, --output        The directory to write the static site to
+            -a, --auth          Auth credentials for the page api. In the format user:pass
+            -c, -clean          Removes the output directory first. Doesn't remove if the output directory is the
+                                current directory
+
+        Example:                > pagespace static -h http://localhost:9999 -o ./tmp/new -a editor:editor
+
+    General:
+        options:
+            --v, --verbose      Uses verbose logging.
+            --V, --version      Print the version
+            --help         Provides help. That's this!
